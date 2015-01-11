@@ -1,4 +1,5 @@
 ActiveAdmin.register Post do
+  permit_params :title_translations
 
 
   # See permitted parameters documentation:
